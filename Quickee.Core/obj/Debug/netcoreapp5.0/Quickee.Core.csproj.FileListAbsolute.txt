@@ -1,0 +1,12 @@
+D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\Quickee.Core.deps.json
+D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\Quickee.Core.dll
+D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\ref\Quickee.Core.dll
+D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\Quickee.Core.pdb
+D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.csproj.AssemblyReference.cache
+D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.AssemblyInfoInputs.cache
+D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.AssemblyInfo.cs
+D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.csproj.CoreCompileInputs.cache
+D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.dll
+D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\ref\Quickee.Core.dll
+D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.pdb
