@@ -1,4 +1,6 @@
 D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\Quickee.Core.deps.json
+D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\Quickee.Core.runtimeconfig.json
+D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\Quickee.Core.runtimeconfig.dev.json
 D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\Quickee.Core.dll
 D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\ref\Quickee.Core.dll
 D:\Core\Quickee\Quickee.Core\bin\Debug\netcoreapp5.0\Quickee.Core.pdb
@@ -10,3 +12,4 @@ D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.csproj.CoreCom
 D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.dll
 D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\ref\Quickee.Core.dll
 D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.pdb
+D:\Core\Quickee\Quickee.Core\obj\Debug\netcoreapp5.0\Quickee.Core.genruntimeconfig.cache
