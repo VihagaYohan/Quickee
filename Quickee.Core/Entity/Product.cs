@@ -7,10 +7,13 @@ namespace Quickee.Core.Entity
     {
         [Key]
         public string Id { get; set; }
-        public ProductCategory CategoryId { get; set; }
+        public string CategoryId { get; set; }
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }
         public double Price { get; set; }
         public int StockCount { get; set; } = 0;
+
+        // navigation properties
+        public ProductCategory Category { get; set; }
     }
 }
