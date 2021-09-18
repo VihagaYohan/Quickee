@@ -11,7 +11,9 @@ namespace Quickee.Core.Entity
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }
         public double Price { get; set; }
-        public int StockCount { get; set; } = 0;
+
+        [Range(1, 1000, ErrorMessage ="Stock count must be between 1 - 1000")]
+        public int StockCount { get; set; } = 1;
 
         // navigation properties
         public ProductCategory Category { get; set; }

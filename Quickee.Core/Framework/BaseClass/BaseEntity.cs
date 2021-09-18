@@ -6,5 +6,6 @@ namespace Quickee.Core.Framework.BaseClass
     {
         public DateTime? DeletedAt { get; set; }
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? LastModified { get; set; }
     }
 }

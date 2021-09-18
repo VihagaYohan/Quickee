@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Quickee.Core.Entity;
 
 namespace Quickee.Core.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210918090854_ModifiedBaseEntity")]
+    partial class ModifiedBaseEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -38,8 +40,8 @@ namespace Quickee.Core.Migrations
                         .HasColumnType("datetime2")
                         .HasComputedColumnSql("GetUtcDate()");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(5,2)");
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
 
                     b.Property<string>("ProductDescription")
                         .IsRequired()
@@ -51,9 +53,7 @@ namespace Quickee.Core.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("StockCount")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(1);
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -88,8 +88,7 @@ namespace Quickee.Core.Migrations
                 {
                     b.HasOne("Quickee.Core.Entity.ProductCategory", "Category")
                         .WithMany("Products")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.SetNull);
+                        .HasForeignKey("CategoryId");
 
                     b.Navigation("Category");
                 });
