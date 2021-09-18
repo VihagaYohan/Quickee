@@ -13,6 +13,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MySqlConnector;
+using Quickee.Core.BusinessLogic.Interface;
+using Quickee.Core.BusinessLogic.Service;
 using Quickee.Core.Entity;
 
 namespace Quickee
@@ -32,6 +34,10 @@ namespace Quickee
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            // add controllers
+            services.AddScoped<IProductCategory, ProductCategories>();
+
             // configure db context with SQL
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(ConnectionString));

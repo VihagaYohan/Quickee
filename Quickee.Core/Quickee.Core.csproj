@@ -16,7 +16,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="ApiInputModels" />
       <Folder Include="ApiOutputModels" />
       <Folder Include="Entity\Common" />
     </ItemGroup>
